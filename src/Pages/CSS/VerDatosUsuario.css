@@ -1,0 +1,17 @@
+.verdatosusuario-background{
+    background-image: url('../../Components/Assets/fondo_ver_datos.jpg'); /* URL de tu imagen de fondo */
+    filter: brightness(115%);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h1{
+    text-align: center;
+    color: #2B0EBE;
+}
