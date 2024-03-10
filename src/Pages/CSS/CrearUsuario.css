@@ -1,17 +1,34 @@
-.crearusuario-background{
-    background-image: url('../../Components/Assets/fondo_crear_usuario.jpg'); /* URL de tu imagen de fondo */
-    filter: brightness(115%);
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; 
-    height: 100vh; 
+/* Estilo para el fondo con imagen fija */
+.crearusuario-background {
+  position: relative;
+  background-image: url('../../Components/Assets/fondo_ver_datos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-.content {
-    padding: 20px;
+/* Pseudoelemento para crear una capa semitransparente sobre la imagen de fondo */
+.crearusuario-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Color de fondo semitransparente */
+  z-index: -1; /* Coloca el pseudoelemento detrás del contenido */
 }
 
-.content h1{
+/*ESTILO CONTENEDOR*/
+.crearusuario-content {
+  position: relative; /* Asegura que el contenido esté por encima del pseudoelemento */
+  z-index: 1; /* Asegura que el contenido esté por encima del pseudoelemento */
+  padding: 5px; /* Añade relleno para separar el contenido del borde */
+}
+
+
+.crearusuario-content h1{
     text-align: center;
     color: #2B0EBE;
 }
@@ -46,9 +63,9 @@
     height: 50px;
     color: white;
     background-color: #2B0EBE;
-    margin-top: 20px;
+    margin-top: 35px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -57,11 +74,11 @@
 /*ALERTAS*/
 .alerta {
     position: relative;
-    width: 650px;
+    width: 670px;
     height: 80px;
     padding: 10px 10px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 70px;
   }
   
   .alerta p {

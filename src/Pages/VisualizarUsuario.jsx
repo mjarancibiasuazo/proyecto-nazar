@@ -47,7 +47,7 @@ const VisualizarUsuario = () => {
 
   return (
     <div className="visualizarusuario-background">
-      <div className="content">
+      <div className="visualizarusuario-content">
         <h1>Visualizar Usuarios</h1>
       </div>
       <div className="visualizarusuario-container">

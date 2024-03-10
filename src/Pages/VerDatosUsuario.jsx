@@ -10,7 +10,7 @@ const VerDatosUsuario = () => {
       "https://mjarancibiasuazo.github.io/lista-usuarios/usuarios.json"
     )
       .then((response) => response.json())
-      .then((data) => setUsers(data.data)); // Ajuste aquí para acceder a la propiedad "data"
+      .then((data) => setUsers(data.data)); 
   }, []);
 
   return (

@@ -55,7 +55,7 @@ const CrearUsuario = () => {
 
   return (
     <div className="crearusuario-background">
-      <div className="content">
+      <div className="crearusuario-content">
         <h1>Crear Usuario</h1>
       </div>
       <div className="crearusuario-container">
