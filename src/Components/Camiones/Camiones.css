@@ -10,8 +10,7 @@
   }
   
   .home-images img {
-
-   
-    width: 350px;
+    width: 24%;
     margin: 0 10px;
+    border-radius: 8%;
   }

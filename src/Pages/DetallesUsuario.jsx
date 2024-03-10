@@ -36,7 +36,7 @@ const DetallesUsuario = () => {
   }
 
   return (
-    <div>
+    <div className="detallesusuario-background">
       <div aria-label="breadcrumb">
           <ol className="breadcrumb">
               <li className="breadcrumb-item"><Link to="/ver-datos-usuario" className="breadcrumb-link">Listado de Usuarios</Link></li>
