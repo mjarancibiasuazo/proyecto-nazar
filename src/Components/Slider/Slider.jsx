@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Slider.css';
-import slide_uno from '../Assets/slide-1.jpg';
-import slide_dos from '../Assets/slide-2.jpg';
+import slide_uno from '../Assets/slide-1.png';
+import slide_dos from '../Assets/slide-2.png';
 
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);

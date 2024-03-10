@@ -15,7 +15,7 @@
 
   .slide img {
     width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: 50%; /* Ajusta la altura automáticamente para mantener la proporción */
+    height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
   }
   
   
@@ -25,7 +25,7 @@
     transform: translateY(-50%);
     background-color: transparent;
     border: none;
-    color: black;
+    color: #2196F3;
     font-size: 24px;
     cursor: pointer;
   }

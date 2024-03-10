@@ -1,0 +1,17 @@
+.home-images {
+    position: relative;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .home-images img {
+
+   
+    width: 350px;
+    margin: 0 10px;
+  }

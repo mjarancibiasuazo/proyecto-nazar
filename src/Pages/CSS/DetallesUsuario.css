@@ -1,0 +1,54 @@
+/*TARJETA*/
+.user-card {
+    display: flex;
+    align-items: center;
+    width: 370px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    
+}
+
+.user-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user-details {
+    flex: 1;
+}
+
+.user-details h1 {
+    margin-top: 0;
+    color: blue;
+    font-size: 20px;
+}
+
+.user-details p {
+    margin: 5px 0;
+}
+
+
+/*BREADCRUM*/
+
+.breadcrumb {
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 4px;
+    color: #6c757d;
+    text-decoration: none;
+    
+}
+  
+.breadcrumb-link{
+    text-decoration: none;
+    color: gray;
+}
+
+.breadcrumb-link:hover{
+    color: #2B0EBE;
+}
+

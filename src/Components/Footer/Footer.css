@@ -39,3 +39,20 @@
     text-decoration: underline;
   }
   
+  /*LISTA CONTACTOS*/
+
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5px; 
+  }
+  
+  .contact-list svg {
+    margin-right: 10px; 
+  }
+  
