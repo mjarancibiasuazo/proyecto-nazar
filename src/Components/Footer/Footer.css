@@ -58,23 +58,26 @@
 
   /*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
 /*PANTALLA 1280*/
-@media (max-width: 1280px){
-  
-}
-
-@media (max-width: 1024px){
- 
-  
-}
 
 
 /*PANTALLA 800PX*/
 @media (max-width: 800px){
+  /* .footer{
+    width: 150%
+  } */
+
   .footer-logo img{
     width: 90%;
     height: 90%;
     margin-top: 25px;
-    
+  }
+
+  .column h3 {
+    font-size: 14px;
+  }
+
+  .column ul li {
+    font-size: 14px;
   }
 
   

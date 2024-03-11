@@ -100,22 +100,22 @@
 
 /*PANTALLA 800PX*/
 @media (max-width: 800px){
-    .navbar{
-        padding: 12px 30px;
-    }
+     .navbar{
+        width: 90%; 
+    } 
 
-    .navbar-socials-container{
-        padding: 3px;
-        padding-bottom: 3px;
+    .navbar-socials-container {
+        padding: 5px;
+        padding-bottom: 5px;
         cursor: pointer;
-    }
+      }
 }
 
 /*PANTALLA 500PX*/
 @media (max-width: 500px) {
     .navbar {
       padding: 12px 20px; 
-      width: 126%; 
+      width: 127%; 
     }
   
     .nav-logo img {
@@ -129,8 +129,8 @@
     }
   
     .navbar-socials-container {
-      padding: 6px;
-      padding-bottom: 6px;
+      padding: 5px;
+      padding-bottom: 3px;
       cursor: pointer;
     }
 }

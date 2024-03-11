@@ -16,6 +16,7 @@
   }
 
   .camiones-titulo h1{
+    margin-top: 100px;
     color: #2B0EBE;
     font-size: 60px;
     text-align: center;
@@ -29,7 +30,6 @@
 
 
 /*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
-
 
 /*PANTALLA 1280PX*/
 @media (max-width: 1280px){
@@ -51,50 +51,8 @@
   }
 }
 
-/*PANTALLA 800PX*/
-@media (max-width: 800px){
-  .camiones-titulo h1{
-    font-size: 40px;
-  }
-
-  .camiones-images img {
-    width: 35%; 
-    margin: 5px; 
-  }
-
-  .camiones-titulo h2{
-    margin-bottom: 40px;
-  }
-}
-
-/*PANTALLA 500PX*/
-  @media (max-width: 500px){
-    .camiones-images {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 15px;
-    }
-
-    .camiones-images img {
-      width: 45%; 
-      margin: 10px; 
-    }
-
-    .camiones-titulo h1{
-      font-size: 35px;
-      
-    }
-  
-    .camiones-titulo h2{
-      font-size: 20px;
-    }
-  
-    
-  }
-
-  /*PANTALLA 800PX*/
-@media (max-width: 800px){
+ /*PANTALLA 800PX*/
+ @media (max-width: 800px){
   .camiones-images {
     display: flex;
     flex-wrap: wrap;
@@ -108,14 +66,42 @@
   }
 
   .camiones-titulo h1{
-    margin-top: 85px;;
+    margin-top: 100px;;
     font-size: 40px;
     text-align: center;
   }
 
   .camiones-titulo h2{
+    margin-bottom: 40px;
     font-size: 23px;
     text-align: center;
   }
 
 }
+
+/*PANTALLA 500PX*/
+  @media (max-width: 500px){
+    .camiones-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+
+    .camiones-images img {
+      width: 45%; 
+      margin: 10px; 
+    }
+
+    .camiones-titulo h1{
+      margin-top: 115px;
+      font-size: 33px;
+      
+    }
+  
+    .camiones-titulo h2{
+      font-size: 20px;
+    }
+}
+
+ 

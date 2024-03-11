@@ -2,7 +2,6 @@
 .visualizarusuario-background {
     background-image: url('../../Components/Assets/fondo_ver_datos.jpg'); /* URL de tu imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-    filter: brightness(100%);
     background-position: center; /* Centra la imagen de fondo */
     background-attachment: fixed; /* Fija la imagen de fondo */
     height: 100vh; /* Ajusta la altura al tamaño de la ventana del navegador */

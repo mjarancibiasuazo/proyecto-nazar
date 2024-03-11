@@ -8,18 +8,6 @@
     height: 100vh;
 }
 
-/* Pseudoelemento para crear una capa semitransparente sobre la imagen de fondo */
-.verdatosusuario-background::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* Color de fondo semitransparente */
-    z-index: -1; /* Coloca el pseudoelemento detrás del contenido */
-}
-
 /*ESTILO CONTENEDOR*/
 .verdatosusuario-content {
     position: relative; /* Asegura que el contenido esté por encima del pseudoelemento */
@@ -72,4 +60,45 @@
     max-width: 40px; /* Ajusta el ancho máximo de la imagen */
     height: auto; /* Altura automática para mantener la proporción */
     align-items: center;
+}
+
+/*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
+/*PANTALLA 1280PX*/
+@media (max-width: 1280px){
+    .verdatosusuario-container {
+        height: 400px;
+    }
+}
+
+@media (max-width: 800px){
+    .verdatosusuario-container{
+        width: 500px;
+        height: 330px;
+        padding: 25px 35px;
+    }
+    .verdatosusuario-caption, td, th{
+        font-size: 15px;
+    } 
+
+    .verdatosusuario-table img {
+        max-width: 37px; 
+        height: auto; 
+        align-items: center;
+    }
+}
+
+/*PANTALLA 500PX*/
+@media (max-width: 500px){
+    .verdatosusuario-background{
+        width: 135%;
+    }
+    .verdatosusuario-container{
+        width: 400px;
+        height: 330px;
+        padding: 25px 35px;
+    }
+
+    .verdatosusuario-caption, td, th{
+        font-size: 14px;
+    } 
 }
