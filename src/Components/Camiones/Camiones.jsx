@@ -8,10 +8,10 @@ import camion_4 from '../Assets/cam4.png'
 
 const Camiones = () => {
   return (
-    <div className="home-titulo">
+    <div className="camiones-titulo">
       <h1>Sociedad de Transporte Nazar Limitada </h1>
         <h2>Atendemos las principales cadenas de retail y de alimentos del país</h2>
-      <div className="home-images">
+      <div className="camiones-images">
           <img src={ camion_1 } alt="" />
           <img src={ camion_2 } alt="" />
           <img src={ camion_3 } alt="" />

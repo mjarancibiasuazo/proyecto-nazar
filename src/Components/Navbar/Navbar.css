@@ -3,7 +3,7 @@
     justify-content: space-around;
     padding: 16px;
     background-color: white; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     align-items: center;
    
 }
@@ -12,8 +12,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 50px;
-    height: 50px;
+    width: 50%;
+    height: 50%;
 }
 
 .nav-menu{
@@ -66,11 +66,75 @@
     cursor: pointer;
 }
 
+/*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
+/*PANTALLA 1280*/
+@media (max-width: 1280px) {
+    .navbar{
+        padding: 12px 50px;
+    }
+
+    .nav-logo img{
+        width: 45%;
+        height: 45%;
+    }
+
+    .nav-menu{
+        gap: 14px;
+        font-size: 15px;
+    }
+
+}
+
+/*PANTALLA 1024PX*/
+@media (max-width: 1024px){
+    .navbar{
+        padding: 12px 40px;
+    }
+
+    .nav-menu{
+        gap: 13px;
+        font-size: 14px;
+    }
+}
 
 
+/*PANTALLA 800PX*/
+@media (max-width: 800px){
+    .navbar{
+        padding: 12px 30px;
+    }
 
+    .navbar-socials-container{
+        padding: 3px;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+}
 
-
+/*PANTALLA 500PX*/
+@media (max-width: 500px) {
+    .navbar {
+      padding: 12px 20px; 
+      width: 126%; 
+    }
+  
+    .nav-logo img {
+      width: 35%; 
+      height: 35%;
+    }
+  
+    .nav-menu {
+      gap: 10px;
+      font-size: 12px;
+    }
+  
+    .navbar-socials-container {
+      padding: 6px;
+      padding-bottom: 6px;
+      cursor: pointer;
+    }
+}
+  
 
 
 

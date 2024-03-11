@@ -28,16 +28,20 @@
 }
 
 
-.home-titulo h1{
-    color: #2B0EBE;
-    font-size: 60px;
-    text-align: center;
+/*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
+/*PANTALLA 1024PX*/
+@media (max-width: 1024px){
+    .home-background{
+        height: 155vh;
+    }
 }
 
-.home-titulo h2{
-    color: #ffff;
-    font-size: 40px;
-    text-align: center;
+/*PANTALLA 500PX*/
+@media (max-width: 500px){
+
+    .home-background{
+        width: 135%;
+    }
 }
 
 

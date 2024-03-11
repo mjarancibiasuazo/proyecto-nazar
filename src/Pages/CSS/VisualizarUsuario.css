@@ -66,3 +66,80 @@
     color: #5c5c5c;
     font-size: 18px;
 }
+
+/*DISEÑO BASADO EN PUNTOS DE CORTES ESPECIFICO*/
+/*PANTALLA 1280PX*/
+@media(max-width: 1280px){
+    .visualizarusuario-container{
+        width: 1000px;
+        height: 460px;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
+
+/*PANTALLA 1024PX*/
+@media (max-width: 1024px){
+    .visualizarusuario-container{
+        width: 780px;
+        height: 490px;
+        
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .visualizarusuario-content{
+        padding: 3px;
+    }
+
+}
+
+/*PANTALLA 800PX*/
+@media (max-width: 800px){
+    .visualizarusuario-container{
+        width: 700px;
+        height: 490px;
+    }
+
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 6px;
+        text-align: left;
+    }
+}
+
+/*PANTALLA 500PX*/
+@media (max-width: 500px){
+    .visualizarusuario-container{
+        width: 550px;
+        height: 520px;
+       
+        background: white;
+    }
+
+    .table th, .table td {
+        padding: 2px;
+        text-align: left;
+    }
+
+    .visualizarusuario-content{
+        padding: 1px;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 93%;
+    }
+
+    .visualizarusuario-background {
+        width: 135%;
+        height: 110vh; /* Ajusta la altura al tamaño de la ventana del navegador */
+    }
+
+}

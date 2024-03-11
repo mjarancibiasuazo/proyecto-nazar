@@ -17,7 +17,7 @@ const Footer = () => {
         <ul className="contact-list">
           <li>
             <svg viewBox="0 0 24 24" className="icon" style={{ width: '23px', height: '23px', fill: 'white' }}>
-              <path d={mdiMapMarker} />
+              <path className="mdiMapMarker" d={mdiMapMarker} />
             </svg>
             <span>Lo Sierra 02302, San Bernardo-Santiago</span>
           </li>
