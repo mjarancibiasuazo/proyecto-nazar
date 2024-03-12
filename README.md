@@ -11,6 +11,10 @@ Sitio web para usuarios de la empresa Nazar.
 
 ## UI/UX
 
+<img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/home-web.png" width="700" height="438">
+<img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/ver-datos.png" width="700" height="438">
+
+
 ## Tecnologías
 
 * Instalar React.js versión 18.2.0 en Visual Studio u otro IDE
@@ -55,7 +59,7 @@ npm install react-router-dom@6.22.2
 * Sitio web responsivo con puntos de corte fijos 
  * 1280px-1024px-800px-500px
 
-<img src="https://drive.google.com/file/d/1bHdFfRIyAaul3-qVSMjqDeW6_gbDJGaD/view?usp=sharing" width="200" height="300">
+<img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/sitio-web-responsive.png" width="500" height="442">
 
 
 
