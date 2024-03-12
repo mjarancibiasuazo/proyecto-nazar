@@ -55,7 +55,7 @@ npm install react-router-dom@6.22.2
 * Sitio web responsivo con puntos de corte fijos 
  * 1280px-1024px-800px-500px
 
-<img src="responsive/sitio-web-responsive.png" width="200" height="300">
+<img src="https://drive.google.com/file/d/1bHdFfRIyAaul3-qVSMjqDeW6_gbDJGaD/view?usp=sharing" width="200" height="300">
 
 
 
