@@ -72,3 +72,7 @@ npm install react-router-dom@6.22.2
 
 * [Express](https://expressjs.com/es/) : Es un framework de Node.JS y maneja las peticiones HTTP
 
+  ## Autor
+
+- [@MariajoseArancibia](https://github.com/mjarancibiasuazo)
+
