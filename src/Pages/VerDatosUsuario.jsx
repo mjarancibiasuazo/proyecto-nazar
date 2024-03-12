@@ -8,7 +8,7 @@ const VerDatosUsuario = () => {
   /*Realiza la solicitud a la API de GitHub para obtener la lista de usuarios*/
   useEffect(() => {
     fetch(
-      "https://mjarancibiasuazo.github.io/lista-usuarios/usuarios.json"
+      "https://raw.githubusercontent.com/mjarancibiasuazo/lista-usuarios/main/usuarios.json"
     )
       .then((response) => response.json())
       .then((data) => setUsers(data.data)); 

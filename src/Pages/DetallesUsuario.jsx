@@ -16,7 +16,7 @@ const DetallesUsuario = () => {
 
   useEffect(() => {
     // Realiza la solicitud a la API de GitHub para obtener la lista de usuarios
-    fetch("https://mjarancibiasuazo.github.io/lista-usuarios/usuarios.json")
+    fetch("https://raw.githubusercontent.com/mjarancibiasuazo/lista-usuarios/main/usuarios.json")
       .then((response) => response.json())
       .then((data) => {
         // Busca el usuario correspondiente al ID en la lista de usuarios
