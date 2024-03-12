@@ -8,7 +8,7 @@ Sitio web para usuarios de la empresa Nazar.
 * Visualización de usuarios y búsqueda
 * Crear usuario
 * Ver tabla de usuarios
-* Ver detalles de la información por cada usuario (Hacer click en la imagen del usuario)
+* Ver detalles de la información de cada usuario (Hacer click en la imagen del usuario)
 
 ## UI/UX
 
