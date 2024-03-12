@@ -22,6 +22,8 @@ Sitio web para usuarios de la empresa Nazar.
 * Instalar versión Node.js 20.11.0
 * Instalar versión Express.js 4.18.3
 * Usar Google Chrome versión 122.0.6261.112 (Build oficial) (64 bits)
+* API REST en [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+* API REST creada en GitHub [GitHub API](https://raw.githubusercontent.com/mjarancibiasuazo/lista-usuarios/main/usuarios.json)
 
   ## Instalación
   Instalar React.js y dependencias
