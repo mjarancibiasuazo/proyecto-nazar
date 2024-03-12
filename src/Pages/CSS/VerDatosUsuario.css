@@ -24,7 +24,7 @@
     position: relative; /* Asegura que el contenedor esté posicionado correctamente */
     width: 750px;
     height: 520px;
-    background: white; /* Color de fondo semitransparente */
+    background: white; 
     margin: auto;
     padding: 35px 45px;
 }
