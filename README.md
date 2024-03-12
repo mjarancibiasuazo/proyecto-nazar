@@ -13,8 +13,6 @@ Sitio web para usuarios de la empresa Nazar.
 ## UI/UX
 
 <img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/home-web.png" width="700" height="438">
-<img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/ver-datos.png" width="700" height="438">
-
 
 ## Tecnologías
 
