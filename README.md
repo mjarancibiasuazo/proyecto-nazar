@@ -7,8 +7,8 @@ Sitio web para usuarios de la empresa Nazar.
 * Inicio con información de la empresa
 * Visualización de usuarios y búsqueda
 * Crear usuario
-* Ver tabla de usuarios
-* Ver detalles de la información de cada usuario (Hacer click en la imagen del usuario)
+* Ver tabla de usuarios (Hacer click en la imagen del usuario para entrar en el detalle de la info)
+* Ver detalles de la información de cada usuario 
 
 ## UI/UX
 
@@ -57,14 +57,12 @@ npm install react-router-dom@6.22.2
 
 # Sitio Web Responsive
 
-* Sitio web responsivo con puntos de corte fijos 
+* Diseño responsivo con breakpoints fijos
  * 1280px-1024px-800px-500px
 
 <img src="https://github.com/mjarancibiasuazo/Imagenes-manual/blob/9256faad917962a0213bcf6f24a6664a15372337/sitio-web-responsive.png" width="500" height="442">
 
 
-
-  
 
 ## Documentación
 
