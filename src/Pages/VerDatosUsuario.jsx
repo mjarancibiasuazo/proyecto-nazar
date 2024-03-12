@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const VerDatosUsuario = () => {
   const [users, setUsers] = useState([]);
 
+  /*Realiza la solicitud a la API de GitHub para obtener la lista de usuarios*/
   useEffect(() => {
     fetch(
       "https://mjarancibiasuazo.github.io/lista-usuarios/usuarios.json"

@@ -43,6 +43,8 @@
     width: 23%;
   }
 }
+
+
 /*PANTALLA 1024PX*/
 @media(max-width: 1024px){
   .camiones-titulo h2{

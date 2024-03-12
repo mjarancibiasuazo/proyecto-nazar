@@ -20,6 +20,29 @@ const CrearUsuario = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+  
+    // Validación de campos vacíos
+    if (!usuario.name || !usuario.username || !usuario.email || !usuario.city) {
+      setMensaje("Por favor, completa todos los campos.");
+      setTipoMensaje("error");
+      return;
+    }
+  
+    // Validación de formato de correo electrónico
+    if (!usuario.email.includes("@")) {
+      setMensaje("El correo electrónico debe contener el carácter '@'.");
+      setTipoMensaje("error");
+      return;
+    }
+  
+    // Validación de que los campos de texto solo contienen texto
+    const regex = /^[a-zA-Z\s]*$/;
+    if (!regex.test(usuario.name) || !regex.test(usuario.username) || !regex.test(usuario.city)) {
+      setMensaje("Los campos de texto solo deben contener letras y espacios.");
+      setTipoMensaje("error");
+      return;
+    }
+  
     try {
       const response = await fetch("https://jsonplaceholder.typicode.com/users", {
         method: "POST",
@@ -32,16 +55,16 @@ const CrearUsuario = () => {
       console.log("Usuario creado:", data);
       setMensaje(`Usuario creado: ${JSON.stringify(data)}`);
       setTipoMensaje("success");
-      setUsuario({ name: "", username: "", email: "", city: "" }); 
-      // Puedes manejar la respuesta de la API aquí, como mostrar un mensaje de éxito
+      setUsuario({ name: "", username: "", email: "", city: "" });
+      //Manejo de la respuesta de la API aquí, como mostrar un mensaje de éxito
     } catch (error) {
       console.error("Error al crear el usuario:", error);
       setMensaje("Error al crear el usuario. Por favor, inténtalo de nuevo.");
       setTipoMensaje("error");
-      // Puedes manejar el error aquí, como mostrar un mensaje de error al usuario
+      // Mensaje de error
     }
   };
-
+  
   const renderAlerta = () => {
     if (!mensaje) return null;
 

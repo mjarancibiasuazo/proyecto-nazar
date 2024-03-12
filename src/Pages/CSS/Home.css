@@ -1,22 +1,21 @@
 .home-background {
-    position: relative; /* Necesario para que el pseudoelemento ::before funcione */
-    background-image: url('../../Components/Assets/fondo_home.jpg'); /* URL de tu imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-    background-position: center; /* Centra la imagen de fondo */
+    position: relative; 
+    background-image: url('../../Components/Assets/fondo_home.jpg'); 
+    background-size: cover; 
+    background-position: center; 
     background-attachment: fixed; /* Fija la imagen de fondo */
-    height: 170vh; /* Ajusta la altura al tamaño de la ventana del navegador */
+    height: 170vh; 
     min-height: 100vh; /* Establece una altura mínima del 100% de la altura de la ventana */
     
 }
 
-/* Pseudoelemento para crear una capa semitransparente sobre la imagen de fondo */
 .home-background::before {
-    content: ""; /* Obligatorio para que el pseudoelemento aparezca */
-    position: absolute; /* Posiciona el pseudoelemento con respecto al contenedor */
-    top: 0; /* Coloca el pseudoelemento en la parte superior del contenedor */
-    left: 0; /* Coloca el pseudoelemento en el lado izquierdo del contenedor */
-    width: 100%; /* Ancho igual al del contenedor */
-    height: 100%; /* Alto igual al del contenedor */
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
     background-color: rgba(0, 0, 0, 0.2); /* Color de fondo semitransparente */
 }
 
